@@ -1,0 +1,51 @@
+body {
+    background-image: url("../images/people-skater-floor-fix.png");
+    background-repeat: none;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: rgb(140, 245, 43);
+    height: 30%;
+    padding: 20px;
+}
+
+.menu-header {
+    font-size: 12pt;
+    text-decoration: none;
+    padding-left: 20px;
+    position: relative;
+    display: none;
+}
+
+.menu-header,
+.menu-item,
+.dropdown-menu,
+.item-dropdown {
+    display: inline;
+    padding: 0 0 15px 15px;
+    color: aquamarine;
+}
+
+.item-link:hover {
+    color: blue;
+}
+
+.dropdown-menu,
+.item-dropdown,
+.item-link-dropdown:hover {
+    color: blue;
+    display: block;
+    position: absolute;
+}
+
+.item-link,
+.item-link-dropdown:visited {
+    color: green;
+}
+
+ul li a,
+ul li a {
+    text-decoration: none;
+}
