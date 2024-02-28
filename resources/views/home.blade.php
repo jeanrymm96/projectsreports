@@ -17,30 +17,39 @@
                 <span>Modules</span>
                 <ul class="dropdown-menu">
                     <li class="item-dropdown">
-                        <a href="" class="item-link-dropdown">Module LAPBUL</a>
+                        <a href="#" class="item-link-dropdown">Module LAPBUL</a>
                     </li>
                     <li class="item-dropdown">
-                        <a href="" class="item-link-dropdown">Module RBB</a>
+                        <a href="#" class="item-link-dropdown">Module RBB</a>
                     </li>
                     <li class="item-dropdown">
-                        <a href="" class="item-link-dropdown">Module PR</a>
+                        <a href="#" class="item-link-dropdown">Module PR</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="#" class="item-link-dropdown">Module GCG</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="#" class="item-link-dropdown">Module OBOX</a>
                     </li>
                 </ul>
             </li>
             <li class="menu-item">
-                <a href="" class="item-link">Help</a>
+                <a href="{{ route('blog') }}" class="item-link">Blog</a>
             </li>
             <li class="menu-item">
-                <a href="" class="item-link">About Me</a>
+                <a href="{{ route('aboutMe')}}" class="item-link">About Me</a>
             </li>
             <li class="menu-item">
                 <span>Portofolios</span>
                 <ul class="dropdown-menu">
                     <li class="item-dropdown">
-                        <a href="" class="item-link-dropdown">Module Reports OJK</a>
+                        <a href="https://github.com/jeanrymm96/projectsreports" class="item-link-dropdown">Module Reports OJK</a>
                     </li>
                     <li class="item-dropdown">
-                        <a href="" class="item-link-dropdown">Auto-Debet</a>
+                        <a href="https://github.com/jeanrymm96/appsAuto" class="item-link-dropdown">Auto-Debet</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="https://github.com/jeanrymm96/obox" class="item-link-dropdown">OBOX</a>
                     </li>
                 </ul>
             </li>

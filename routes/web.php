@@ -19,3 +19,9 @@ Route::get('/','Dashboard\DashboardController@index')->name('DashboardMenu');
  * Write down your Profile Routes here
  */
 Route::get('/aboutMe','Profile\ProfileController@index')->name('aboutMe');
+
+
+/**
+ * Write down here the routes of Blog
+ */
+Route::get('/blog','Blog\BlogDashboardController@index')->name('blog');

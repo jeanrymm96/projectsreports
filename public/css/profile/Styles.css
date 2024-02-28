@@ -1,0 +1,38 @@
+body {
+    background: rgb(156, 152, 152);
+}
+
+header {
+    background: linear-gradient(
+        0deg,
+        rgb(97, 26, 211) 4%,
+        rgb(95, 14, 187) 51%,
+        rgb(64, 8, 194) 93%
+    );
+}
+
+.menu {
+    display: inline-block;
+}
+
+.menu-item {
+    float: right;
+    display: block;
+    padding-left: 50px;
+}
+
+.item-link {
+    color: darkorange;
+}
+
+.menu-item .item-link:hover {
+    color: blue;
+}
+
+.item-link:visited {
+    color: antiquewhite;
+}
+
+.menu-item a {
+    text-decoration: none;
+}
