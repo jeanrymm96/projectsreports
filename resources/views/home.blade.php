@@ -14,7 +14,7 @@
                 <a href="" class="item-link">Home</a>
             </li>
             <li class="menu-item">
-                <a href="" class="item-link">Modules</a>
+                <span>Modules</span>
                 <ul class="dropdown-menu">
                     <li class="item-dropdown">
                         <a href="" class="item-link-dropdown">Module LAPBUL</a>
@@ -34,7 +34,29 @@
                 <a href="" class="item-link">About Me</a>
             </li>
             <li class="menu-item">
-                <a href="" class="item-link">Portofolios</a>
+                <span>Portofolios</span>
+                <ul class="dropdown-menu">
+                    <li class="item-dropdown">
+                        <a href="" class="item-link-dropdown">Module Reports OJK</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="" class="item-link-dropdown">Auto-Debet</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item">
+                <span>Social Media</span>
+                <ul class="dropdown-menu">
+                    <li class="item-dropdown">
+                        <a href="https://www.instagram.com/" class="item-link-dropdown">Instagram</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="https://www.linkedin.com/" class="item-link-dropdown">LinkedIn</a>
+                    </li>
+                    <li class="item-dropdown">
+                        <a href="https://web.telegram.org/k/" class="item-link-dropdown">Telegram</a>
+                    </li>
+                </ul>
             </li>
         </ul>
     </header>
