@@ -30,5 +30,14 @@
             </li>
         </ul>
     </header>
+    <div class="container">
+        <div class="card">
+            <div class="card-body" id="profile">
+                <div class="title-card">
+                    <h1 class="title-card-body">PROFILE</h1>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

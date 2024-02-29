@@ -1,7 +1,15 @@
+/**
+|Write down CSS describe the body of HTML pages
+*/
 body {
-    background: rgb(156, 152, 152);
+    background: rgb(230, 226, 226);
 }
 
+/* End here */
+
+/*
+|Start to Write down here CSS of header menu
+*/
 header {
     background: linear-gradient(
         0deg,
@@ -9,20 +17,26 @@ header {
         rgb(95, 14, 187) 51%,
         rgb(64, 8, 194) 93%
     );
+    border-radius: 5pt;
+    text-align: right;
+    box-shadow: -5px 5px 5px rgb(133, 131, 131);
 }
-
 .menu {
     display: inline-block;
 }
 
 .menu-item {
-    float: right;
+    float: left;
     display: block;
-    padding-left: 50px;
+    padding-left: 10px;
 }
 
 .item-link {
-    color: darkorange;
+    color: #d1e70c;
+    line-height: 60px;
+    margin-right: 70px;
+    font-size: 20px;
+    font-family: system-ui;
 }
 
 .menu-item .item-link:hover {
@@ -36,3 +50,23 @@ header {
 .menu-item a {
     text-decoration: none;
 }
+/* End Here */
+
+/*Put here your CSS of Container */
+.container .card .card-body .title-card .title-card-body {
+    font-size: 40px;
+    color: green;
+    font-family: monospace;
+    line-height: 200px;
+    text-align: center;
+}
+
+.title-card {
+    background-color: rgb(199, 199, 206);
+    border-radius: 5pt;
+    height: 200px;
+    opacity: 0.9;
+    box-shadow: 5px -6px 15px rgb(107, 106, 106);
+}
+
+/*End Here */
