@@ -5,6 +5,12 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
 header {
     background: linear-gradient(
         0deg,
@@ -13,6 +19,8 @@ header {
         rgba(27, 53, 241, 0.9724264705882353) 96%
     );
     padding: 0.5%;
+    text-align: center;
+    border-radius: 5px;
 }
 
 .menu-header .menu-item {
@@ -56,6 +64,7 @@ a {
 .dropdown-menu .item-dropdown {
     display: block;
     padding: 10px;
+    text-align: left;
 }
 
 .dropdown-menu .item-dropdown .item-link-dropdown {

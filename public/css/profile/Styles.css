@@ -7,6 +7,12 @@ body {
 
 /* End here */
 
+/*Write container here */
+.container {
+    width: 1150px;
+    height: auto;
+    margin: auto;
+}
 /*
 |Start to Write down here CSS of header menu
 */
